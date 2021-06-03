@@ -1,0 +1,10 @@
+body {
+    font-family: Georgia;
+    background-color: lightgray;
+}
+h1 {
+    text-align: center;
+    border: black solid 5px;
+    margin: 20px;
+    padding: 30px;
+}

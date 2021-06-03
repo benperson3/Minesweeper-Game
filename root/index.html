@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>MINESWEEPER</title>
+      <link href="style/style.css" rel="stylesheet"></style>
+   </head>
+   <body>
+      <h1>MINESWEEPER</h1>
+      <h2>Inputs</h2>
+      <div style="border: 3px solid black; margin: 20px; padding: 30px 0px; text-align: center;">
+         <label for="size">Grid Size (#x# - Max 12):</label>
+         <input type="number" name="size" id="size">
+         <label for="bombs"># of bombs (Max 20):</label>
+         <input type="number" name="bombs" id="bombs">
+         <label for="seed">Map from Seed:</label>
+         <input type="number" name="seed" id="seed"><br>
+         <button type="button" onclick="create()">Create from Inputs</button><br>
+      </div>
+      <p id="flg">Flags Remaining: </p>
+      <canvas id="myCanvas" width="435px" height="435px" style="border:2px solid black;"></canvas><br>
+      <script src="scripts/script.js"></script>   
+      <button type="button" id="finish" onclick="finish()">Done</button>  
+   </body>
+</html>
